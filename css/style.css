@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	padding-top:70px;
+    background-color: #F7F7F7;
+}
+h1
+{
+	font-family: 'Caudex', serif;
+	color:#8c1f1f;
+	padding-bottom: 15px;
+	 
+
+}
+h3
+{
+	color: #337ab7;
+	font-weight: bold;
+}
+	
+/*Main Navbar*/
+.navbar
+{
+	min-height:70px;
+}
+/*Active Link*/
+.navbar-inverse{
+	background-color:#4c0b0a;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+	background-color:#8e1010;
+}
+/*Navbar Link*/
+.navbar-inverse .navbar-nav > li > a
+{
+	color:#bbb;
+	padding-top:25px;
+	padding-bottom:25px;
+/*	margin-right:250px;
+*/	font-family: 'Caudex', serif;
+	font-size:20px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #8e1010;
+}
+/*Brand Name*/
+.navbar-inverse .navbar-brand
+{
+	color:#bbb;
+	font-size:30px;
+	line-height:40px;
+}
+
+
+/*Navbar Toggle*/
+.navbar-toggle
+{
+	margin-top:18px;
+}
+	
+.panel-info > .panel-heading{
+	color:#FFF;
+	background-color:#8e1010;
+	
+}
+.logo h1 {
+		    color:#000000;
+			font-family: 'Wendy One', sans-serif;
+			margin-bottom:50px}
+
+.list-group-item:before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #8e1010; /* Or a color you prefer */
+}
+.list-group-items:before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #8e1010; /* Or a color you prefer */
+}
+.space{padding-left:10px;
+	   font-family: 'Caudex', serif;
+	   font-size:20px;
+}			
+
+.panel-group
+
+{
+	margin-bottom:50px;
+}
+a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus {
+	color:#00449a;
+}
+
+.bot	
+{
+	margin-bottom:145px;
+}
+
+/*start alexa */
+.fa-amazon{
+	padding-bottom: 145px;
+}
+/*end alexa*/
+
+/* Start Footer */
+.footer
+{
+	background-color:#4c0b0a;
+	color:#eee;
+		
+}
+.footer i
+{
+	color:#fff;
+	margin-left:20px;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+	cursor:pointer;
+	
+	
+}
+.footer .fa-facebook:hover
+{
+	color:#3b5998;
+}
+.fa-whatsapp
+{
+	margin-left:10px;
+}
+
+.contact i
+{
+	color:#b73333;
+	margin-left: 10px;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+	cursor:pointer;
+}
+.fa-tasks
+{
+	color:#b73333;
+	
+	
+}
+/*end footer*/
+
+/*start contact me*/
+
+.details li {
+      list-style: none;
+}
+.jumbotron{
+	background-color:#F7F7F7;
+}
+	  
+
+
+/*end contact me*/
+a.list-group-item, button.list-group-item{
+	color:#555;
+	
+}
+
+/*start about us*/
+.about-us{
+	padding:70px 0;
+}
+/*end about us*/
+.list-group
+{
+	list-style-type: none;
+}
+
+/*start search*/ 
+mark {
+  background: yellow;
+}
+
+mark.current {
+  background: orange;
+}
+.form-control{
+	margin-top: 20px;
+}
+/*end search*/
+
+
+
